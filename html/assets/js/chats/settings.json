@@ -1,0 +1,60 @@
+{
+  "report": [
+    {
+      "name": "header",
+      "header": "#отчёт_чаты",
+      "web": {
+        "showField": false
+      }
+    },
+    {
+      "name": "incidents",
+      "header": "🚨 Инциденты и ДТП:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "newTasks",
+      "header": "🗓 Баг-репорты/Новые таски:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "serviceApp",
+      "header": "⚙️ Сервисное приложение:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "feedback",
+      "header": "❌ Фидбек клиентов:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "topRequests",
+      "header": "✍️ Топ-5 запросов:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "currentTasks",
+      "header": "➡️ Для сменщика:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "wishes",
+      "header": "💙 Хорошей смены:",
+      "web": {
+        "showField": false
+      }
+    }
+  ]
+}

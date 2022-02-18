@@ -1,0 +1,170 @@
+{
+  "tests": {
+    "archive": [
+      {
+        "type": "test",
+        "name": "Тестирование 25.02",
+        "telegramUsername": "telegram_username_general",
+        "telegramID": 126713607,
+        "url": "https://ru.surveymonkey.com/r/J2L9HVL",
+        "timestampDue": 1582837200,
+        "notifications": [
+          {
+            "timestamp": 1582614000,
+            "sent": true
+          },
+          {
+            "timestamp": 1582657200,
+            "sent": true
+          },
+          {
+            "timestamp": 1582700400,
+            "sent": true
+          },
+          {
+            "timestamp": 1582743600,
+            "sent": true
+          },
+          {
+            "timestamp": 1582786800,
+            "sent": true
+          },
+          {
+            "timestamp": 1582830000,
+            "sent": true
+          }
+        ],
+        "whoCompleted": [
+          "itsTimeTo420",
+          "Nadezhdakul",
+          "yakovanna",
+          "vadimkuaaa",
+          "MariMikhaylova",
+          "Strekoza39",
+          "Strekoza39",
+          "CatherineDann",
+          "Elena_Valujskova",
+          "esheklin",
+          "Nata_Golubina"
+        ]
+      },
+      {
+        "type": {
+          "NAME": "Тестирование чатовские",
+          "ID": "chatsTest",
+          "ROLE_WHO_CAN_CREATE": [
+            "managerChats"
+          ],
+          "ROLE_WHO_SHOULD_COMPLETE": [
+            "chats"
+          ],
+          "ROLE_WHO_SHOULD_BE_IGNORED": [],
+          "CHAT_ID": -1001343908066,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": true
+        },
+        "name": "Тест",
+        "telegramUsername": "telegram_username_general",
+        "telegramID": 91430770,
+        "url": "ссыль",
+        "timestampDue": 1583960400,
+        "notifications": [
+          {
+            "timestamp": 1583930220,
+            "sent": false
+          }
+        ],
+        "whoCompleted": [
+          "WarmDuck"
+        ]
+      },
+      {
+        "type": {
+          "NAME": "Тестирование чатовские",
+          "ID": "chatsTest",
+          "ROLE_WHO_CAN_CREATE": [
+            "managerChats"
+          ],
+          "ROLE_WHO_SHOULD_COMPLETE": [
+            "chats"
+          ],
+          "ROLE_WHO_SHOULD_BE_IGNORED": [
+            "duty"
+          ],
+          "CHAT_ID": -1001343908066,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": true
+        },
+        "name": "название",
+        "telegramUsername": "telegram_username_general",
+        "telegramID": 91430770,
+        "url": "ссылка",
+        "timestampDue": 1583960400,
+        "notifications": [
+          {
+            "timestamp": 1583932740,
+            "sent": false
+          }
+        ],
+        "whoCompleted": []
+      },
+      {
+        "type": {
+          "NAME": "Тестирование дежурные",
+          "ID": "dutyTest",
+          "ROLE_WHO_CAN_CREATE": [
+            "managerDuty"
+          ],
+          "ROLE_WHO_SHOULD_COMPLETE": [
+            "duty"
+          ],
+          "ROLE_WHO_SHOULD_BE_IGNORED": [],
+          "CHAT_ID": -1001359862543,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": true
+        },
+        "name": "Тест дежурные",
+        "telegramUsername": "telegram_username_general",
+        "telegramID": 91430770,
+        "url": "Ссылка",
+        "timestampDue": 1583960400,
+        "notifications": [
+          {
+            "timestamp": 1583933040,
+            "sent": false
+          }
+        ],
+        "whoCompleted": []
+      },
+      {
+        "type": {
+          "NAME": "Таск качества дежурные",
+          "ID": "dutyQuality",
+          "ROLE_WHO_CAN_CREATE": [
+            "managerDuty"
+          ],
+          "ROLE_WHO_SHOULD_COMPLETE": [],
+          "ROLE_WHO_SHOULD_BE_IGNORED": [],
+          "CHAT_ID": -1001359862543,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": false,
+          "NOTIFICATE_ONE_PERSON_ONLY": true
+        },
+        "name": "Таск качества",
+        "telegramUsername": "telegram_username_general",
+        "telegramID": 91430770,
+        "url": "Ссылка",
+        "whomNotificate": "telegram_username_0",
+        "timestampDue": 1583960400,
+        "notifications": [
+          {
+            "timestamp": 1583939340,
+            "sent": false
+          }
+        ],
+        "whoCompleted": []
+      }
+    ],
+    "active": []
+  }
+}

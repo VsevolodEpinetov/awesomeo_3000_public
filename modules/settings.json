@@ -1,0 +1,219 @@
+{
+    "SecondTestChatID": -0,
+    "OutCallsChatID": -0,
+    "TechChatID": -0,
+    "SpbTechChatID": -0,
+    "QualityControlSupportTechChatID": -0,
+    "TestMentionChatID": -0,
+    "ImageCatScratchBelly": "AgADAgADL6oxG_A5kErvwrFLy0KBTBz89A4ABIbh75JpJCC1zGUEAAEC",
+    "MonthNames": ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"],
+    "MonthNamesPlain": ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"],
+    "QualityControlServicesChatID": "-0",
+    "namesOfPartsInDutyReport": ["#отчет", "Инциденты и ДТП:", "Инциденты и ДТП с БК/Porsche:", "Факапы:", "Сервисное приложение:", "Действующие проблемы:", "Баг-репорты/Новые таски:", "Топ-5 запросов:", "Текущие задачи:", "Хорошей смены:"],
+    "namesOfPartsInC2dReport": ["#отчёт_чаты", "Инциденты и ДТП:", "Баг-репорты/Новые таски:", "Сервисное приложение:", "Фидбек клиентов:", "Топ-5 запросов:", "Для сменщика:", "Хорошей смены:"],
+    "TelegramCharactersLimit": 4096,
+    "CatImagesChatID": -0,
+    "DogImagesChatID": -0,
+    "SupportDriveChatID": -0,
+    "GetaChatID": 0,
+    "ViolationsChatID": -0,
+    "SpecialNotificationsChatID": -0,
+    "BirthdayNotificationsChatID": -0,
+    "DTPChatID": -0,
+    "C2dInternalChatID": -0,
+    "DriveTaxiClientID": "0",
+    "ShouldISeeExternalReports": "no",
+    "SCOPES": ["https://www.googleapis.com/auth/spreadsheets.readonly"],
+    "TOKEN_PATH": "token.json",
+    "TechDTPChatID": -0,
+    "ForDTPDocsChatID": -0,
+    "DutyLearningChatID": -0,
+    "ATChatID": -0,
+    "CallcenterChatID": -0,
+    "DaysInMonth": [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
+    "chats": {
+      "telegram_username_0": {
+        "id": 0
+      },
+      "telegram_username_1": {
+        "id": 0
+      },
+      "telegram_username_3": {
+        "id": 0
+      },
+      "test": {
+        "id": -0
+      },
+      "testSecond": {
+        "id": -0
+      },
+      "moscowTechicians": {
+        "id": -0,
+        "title": "chat_title_1"
+      },
+      "spbTechicians": {
+        "id": -0,
+        "title": "chat_title_2"
+      },
+      "kazanTechnicians": {
+        "id": -0
+      },
+      "achtung": {
+        "id": -0,
+        "title": "chat_title_3"
+      },
+      "seniorOperators": {
+        "id": -0
+      },
+      "dtpNotifications": {
+        "id": -0
+      },
+      "moscowStyleD": {
+        "id": -0
+      },
+      "spbStyleD": {
+        "id": -0
+      },
+      "kazanStyleD": {
+        "id": -0
+      },
+      "duty": {
+        "id": -0
+      },
+      "spbTechniciansQuality": {
+        "id": -0
+      },
+      "kazanTechniciansQuality": {
+        "id": -0,
+        "title": "chat_title_4"
+      },
+      "violationsNotifications": {
+        "id": -0,
+        "title": "chat_title_5"
+      },
+      "moscowCC": {
+        "id": -0,
+        "title": "chat_title_6"
+      },
+      "moscowAT": {
+        "id": -0,
+        "title": "chat_title_7"
+      },
+      "birthday": {
+        "id": -0,
+        "title": "chat_title_8"
+      },
+      "spbCC": {
+        "id": -0,
+        "title": "chat_title_9"
+      },
+      "kazanCC": {
+        "id" : -0,
+        "title": "chat_title_10"
+      },
+      "chats": {
+        "id": -0,
+        "title": "chat_title_11"
+      },
+      "chatsOrganisation": {
+        "id": -0,
+        "title": "chat_title_12"
+      },
+      "outCalls": {
+        "id": -0,
+        "title": "chat_title_13"
+      },
+      "internalSupport": {
+        "id": -0,
+        "title": "chat_title_14"
+      },
+      "violations": {
+        "id": -0,
+        "title": "chat_title_15"
+      },
+      "seniorTechniciansAndSupport": {
+        "id": -0,
+        "title": "chat_title_16"
+      },
+      "chatocats": {
+        "id": -0,
+        "title": "chat_title_17"
+      },
+      "dtp": {
+        "id": -0,
+        "title": "chat_title_18"
+      }
+    },
+    "calls": {
+      "queues": [
+        {
+          "priority": 0,
+          "prefix": "#наутро"
+        },
+        {
+          "priority": 1,
+          "prefix": "#позвонить"
+        },
+        {
+          "priority": 2,
+          "prefix": "🔥🔥🔥"
+        },
+        {
+          "priority": 3,
+          "prefix": "🚨🚨🚨"
+        }
+      ]
+    },
+    "incidentPartsNames": ["", "⏱ Время: ", "📍 Адрес: ", "🔪 Виноват: ", "⚙️ Повреждения: ", "🔮 Хронология: ", "🚨 Оформление: ", "https://link/DRIVESECURITY-"],
+    "TESTS": {
+      "TYPES": [
+        {
+          "NAME": "Тестирование дежурные",
+          "ID": "dutyTest",
+          "ROLE_WHO_CAN_CREATE": ["managerDuty"],
+          "ROLE_WHO_SHOULD_COMPLETE": ["duty"],
+          "ROLE_WHO_SHOULD_BE_IGNORED": ["managerDuty"],
+          "CHAT_ID": -0,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": true,
+          "NOTIFICATE_ONE_PERSON_ONLY": false
+        },
+        {
+          "NAME": "Таск качества дежурные",
+          "ID": "dutyQuality",
+          "ROLE_WHO_CAN_CREATE": ["managerDuty"],
+          "ROLE_WHO_SHOULD_COMPLETE": [],
+          "ROLE_WHO_SHOULD_BE_IGNORED": ["managerDuty"],
+          "CHAT_ID": -0,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": false,
+          "NOTIFICATE_ONE_PERSON_ONLY": true,
+          "CUSTOM_PERSONAL_HEADER": "Привет 🥰\nНапоминаю, что у тебя есть требующий внимания <b>таск качества</b>",
+          "CUSTOM_PERSONAL_FOOTER": "<i>Если ты уже выполнил(а) необходимые действия в таске качества, используй команду /tests в этом чате и отметь таск</i>"
+        },
+        {
+          "NAME": "Тестирование чатовские",
+          "ID": "chatsTest",
+          "ROLE_WHO_CAN_CREATE": ["managerChats"],
+          "ROLE_WHO_SHOULD_COMPLETE": ["chats"],
+          "ROLE_WHO_SHOULD_BE_IGNORED": ["managerChats"],
+          "CHAT_ID": -0,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": true,
+          "NOTIFICATE_ONE_PERSON_ONLY": false
+        },
+        {
+          "NAME": "Тестирование ДТП",
+          "ID": "dtpTest",
+          "ROLE_WHO_CAN_CREATE": ["managerDTP"],
+          "ROLE_WHO_SHOULD_COMPLETE": ["dtp"],
+          "ROLE_WHO_SHOULD_BE_IGNORED": ["managerDTP"],
+          "CHAT_ID": -0,
+          "NOTIFICATE_PERSONALLY": true,
+          "NOTIFICATE_GLOBALLY": true,
+          "NOTIFICATE_ONE_PERSON_ONLY": false
+        }
+      ]
+    }
+
+}

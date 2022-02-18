@@ -1,0 +1,22 @@
+[
+  {
+    "priority": 0,
+    "prefix": "#наутро",
+    "type": "morning"
+  },
+  {
+    "priority": 1,
+    "prefix": "#позвонить",
+    "type": "common"
+  },
+  {
+    "priority": 2,
+    "prefix": "🔥🔥🔥",
+    "type": "urgent"
+  },
+  {
+    "priority": 3,
+    "prefix": "🚨🚨🚨",
+    "type": "superUrgent"
+  }
+]

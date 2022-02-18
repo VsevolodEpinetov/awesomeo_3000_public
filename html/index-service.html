@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Service v3</title>
+
+  <!-- Styles -->
+  <link href="assets/css/page-v1.1.css" rel="stylesheet">
+  <link href="assets/css/style-v1.1.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+  <link rel="icon" href="assets/images/favicon.png">
+
+</head>
+
+<body>
+  <main class="main-content">
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | DTP
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <section class="section" id='sectionDtp'>
+      <div class="container">
+        <header class="section-header">
+          <h2>ДТП</h2>
+          <hr>
+          <p class="lead"></p>
+        </header>
+        <div class='row' id='dtploader'>
+        </div>
+        <br><br>
+        <div class='row' id='dtpcontainer'>
+        </div>
+        <div class='row' id='dtpcopy'>
+          <button type="button" class="btn btn-xl btn-block btn-primary" id="copyincident">Скопировать</button>
+        </div>
+      </div>
+    </section>
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Report
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <section class="section bg-gray" id='sectionReport'>
+      <div class="container">
+        <header class="section-header">
+          <h2>Отчёт</h2>
+          <hr>
+          <p class="lead">Помни, что каждый новый пункт должен начинаться с новой строки и знака "-"</p>
+        </header>
+
+        <div class="row gap-y" id="report">
+        </div>
+
+        <div class='row'>
+          <div class="form-group">
+            <select class="form-control" id='shiftfrom'>
+              <option>0:00</option>
+              <option>1:00</option>
+              <option>2:00</option>
+              <option>3:00</option>
+              <option>4:00</option>
+              <option>5:00</option>
+              <option>6:00</option>
+              <option>7:00</option>
+              <option>8:00</option>
+              <option>9:00</option>
+              <option>10:00</option>
+              <option>11:00</option>
+              <option>12:00</option>
+              <option>13:00</option>
+              <option>14:00</option>
+              <option>15:00</option>
+              <option>16:00</option>
+              <option>17:00</option>
+              <option>18:00</option>
+              <option>19:00</option>
+              <option>20:00</option>
+              <option>21:00</option>
+              <option>22:00</option>
+              <option>23:00</option>
+            </select>
+          </div>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          <div class="form-group">
+            <select class="form-control" id='shiftto'>
+              <option>1:00</option>
+              <option>2:00</option>
+              <option>3:00</option>
+              <option>4:00</option>
+              <option>5:00</option>
+              <option>6:00</option>
+              <option>7:00</option>
+              <option>8:00</option>
+              <option>9:00</option>
+              <option>10:00</option>
+              <option>11:00</option>
+              <option>12:00</option>
+              <option>13:00</option>
+              <option>14:00</option>
+              <option>15:00</option>
+              <option>16:00</option>
+              <option>17:00</option>
+              <option>18:00</option>
+              <option>19:00</option>
+              <option>20:00</option>
+              <option>21:00</option>
+              <option>22:00</option>
+              <option>23:00</option>
+              <option>24:00</option>
+            </select>
+          </div>
+        </div>
+
+        <div class='row'>
+          <button type="button" class="btn btn-xs btn-block btn-outline-success" id="repairreport">Восстановить</button>
+        </div>
+        <br>
+        <div class='row'>
+          <button type="button" class="btn btn-xl btn-block btn-primary" id="copyreport">Скопировать</button>
+        </div>
+      </div>
+    </section>
+
+    <div id='popups'></div>
+
+    <div class="modal fade" id="modalToken" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+            <div class="input-round text-center">
+              <p class="my-6"><img src="assets/images/cat-sm.png" alt="..."></p>
+              <h4>Привет, друг!</h4>
+              <p>Для работы с инцидентами тебе понадобится токен (такой же, что и в утилите). Получи его по <a href="https://oauth.yandex-team.ru/authorize?response_type=token&client_id=ef9056af494c4ace99d02fdbac924c12" target="_blank">ссылке</a> и введи в поле ниже. Если вдруг его нужно будет поменять - ты всегда можешь найти соответствующую кнопку в самом низу страницы.</p>
+              <br>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-key"></i></span>
+                </div>
+                <input class="form-control" name="token" placeholder="Токен сюды" id='tokenField'>
+                <button class="btn btn-round btn-primary" id="saveToken" data-dismiss="modal">Сохранить</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+
+          <div class="col-md-3 text-center text-md-left">
+            Service v3
+          </div>
+
+          <div class="col-md-6">
+            <div class="nav nav-center">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#modalToken">Изменить токен</a>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-right">
+            <small>Приветики :)</small>
+          </div>
+
+        </div>
+      </div>
+    </footer><!-- /.footer -->
+
+    <ul class="nav-page">
+      <li class="nav-item">
+        <a class="nav-link active" href="#sectionDtp" title="ДТП"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sectionReport" title="Отчет"></a>
+      </li>
+    </ul>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/page.min.js"></script>
+    <script src="assets/js/socket.io.js"></script>
+    
+    <script src="assets/js/utility-v1.0.js"></script>
+    <script src="assets/js/cookies-v1.0.js"></script>
+    <script src="assets/js/popups-v1.0.js"></script>
+    
+    <script src="assets/js/service/report-v1.0.js"></script>
+    <script src="assets/js/incident-v1.1.js"></script>
+
+</body></html>

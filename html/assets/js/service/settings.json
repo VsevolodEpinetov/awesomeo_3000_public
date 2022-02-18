@@ -1,0 +1,53 @@
+{
+  "report": [
+    {
+      "name": "header",
+      "header": "#отчет_сервисы",
+      "web": {
+        "showField": false
+      }
+    },
+    {
+      "name": "tasksService",
+      "header": "🔧 Текущие задачи по сервисам:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "tasksSenior",
+      "header": "🦸‍♂️ Текущие задачи старшим техникам:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "topRequests",
+      "header": "✍️ Топ-5 запросов:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "serviceApp",
+      "header": "🛠 Жалобы на сервисное приложение:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "extraHour",
+      "header": "⭐️ Дополнительный час:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "wishes",
+      "header": "❤️ Хорошей смены:",
+      "web": {
+        "showField": false
+      }
+    }
+  ]
+}

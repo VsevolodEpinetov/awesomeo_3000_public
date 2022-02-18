@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Duty v2</title>
+
+  <!-- Styles -->
+  <link href="assets/css/page-v1.1.css" rel="stylesheet">
+  <link href="assets/css/style-v1.1.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+  <link rel="icon" href="assets/images/favicon.png">
+
+</head>
+
+<body>
+  <main class="main-content">
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | DTP
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+    <section class="section" id='sectionDtp'>
+      <div class="container">
+        <header class="section-header">
+          <h2>Статистика</h2>
+          <hr>
+        </header>
+        <div class='row'>
+          <canvas id="myChart"></canvas>
+        </div>
+      </div>
+    </section>
+    <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Report
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+
+          <div class="col-md-3 text-center text-md-left">
+            Duty v2
+          </div>
+
+          <div class="col-md-6">
+            <div class="nav nav-center">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#modalToken">Изменить токен</a>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-right">
+            <small>Приветики :)</small>
+          </div>
+
+        </div>
+      </div>
+    </footer><!-- /.footer -->
+
+    <ul class="nav-page">
+      <li class="nav-item">
+        <a class="nav-link active" href="#sectionDtp" title="ДТП"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sectionReport" title="Отчет"></a>
+      </li>
+    </ul>
+
+
+    <!-- Scripts -->
+    
+    <script src="assets/js/page.min.js"></script>
+    <script src="assets/js/charts.js"></script>
+    <script src="assets/js/socket.io.js"></script>
+    
+    <script src="assets/js/utility-v1.0.js"></script>
+    <script src="assets/js/cookies-v1.0.js"></script>
+    <script src="assets/js/stats-v1.0.js"></script>
+    
+    
+</body></html>

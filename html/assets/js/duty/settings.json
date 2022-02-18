@@ -1,0 +1,81 @@
+{
+  "report": [
+    {
+      "name": "header",
+      "header": "#отчет",
+      "web": {
+        "showField": false
+      }
+    },
+    {
+      "name": "incidents",
+      "header": "🚔 Тяжелые/значимые инциденты:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "fuckups",
+      "header": "🆘 Факапы:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "newTasks",
+      "header": "⚙️ Баг-репорты/новые таски:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "topRequests",
+      "header": "✍️ Топ-5 запросов:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "funny",
+      "header": "🙂 Интересное/смешное:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "loyalty",
+      "header": "🥰 Лояльность (такси/еда):",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "workingChats",
+      "header": "💻 Сборка:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "extraHour",
+      "header": "⭐️ Дополнительный час:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "currentTasks",
+      "header": "🗓 Текущие задачи:",
+      "web": {
+        "showField": true
+      }
+    },
+    {
+      "name": "wishes",
+      "header": "❤️ Хорошей смены:",
+      "web": {
+        "showField": false
+      }
+    }
+  ]
+}
